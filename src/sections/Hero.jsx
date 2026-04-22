@@ -1,4 +1,4 @@
-import {Button} from "@/components/button";
+import {Button} from "@/components/button.jsx";
 import {ArrowRight, Download, ChevronDown} from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { BsGithub } from "react-icons/bs";
@@ -126,7 +126,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile.jpeg"
+                  src="/photo.jpeg"
                   alt="Profile image"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
