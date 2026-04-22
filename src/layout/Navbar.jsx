@@ -1,4 +1,4 @@
-import { Button } from "@/components/Button.jsx";
+import { Button } from "@/components/Button";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react";
