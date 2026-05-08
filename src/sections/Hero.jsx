@@ -22,6 +22,7 @@ const skills = [
   "Github Actions",
   "Node.js",
   "Open CV",
+  "Capcut",
 ]
 
 export const Hero = () => {
@@ -156,7 +157,7 @@ export const Hero = () => {
             Technologies I work with
           </p>
           <div className="relative overflow-hidden">
-            <div className="flex animate-marquee">
+            <div className="flex w-max animate-marquee">
               {[...skills, ...skills].map((skill, idx) => (
                 <div key={idx} className="flex-shrink-0 px-8 py-4">
                   <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">{skill}</span>
